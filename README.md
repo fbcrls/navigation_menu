@@ -4,6 +4,5 @@ Navigation in Flutter is the process of moving from one screen or page to anothe
 
 The Flutter navigation system is based on the Navigator class. The Navigator class provides a number of methods for navigating between screens, including:
 
-push(): This method adds a new route to the stack of routes managed by the Navigator.
-
-pop(): This method removes the top route from the stack of routes managed by the Navigator.
+- push(): This method adds a new route to the stack of routes managed by the Navigator.
+- pop(): This method removes the top route from the stack of routes managed by the Navigator.
