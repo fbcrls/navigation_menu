@@ -1,16 +1,9 @@
-# navigation
+# Navigation in Flutter
 
-A new Flutter project.
+Navigation in Flutter is the process of moving from one screen or page to another. Flutter provides a comprehensive navigation system that allows you to easily navigate between screens in your app.
 
-## Getting Started
+The Flutter navigation system is based on the Navigator class. The Navigator class provides a number of methods for navigating between screens, including:
 
-This project is a starting point for a Flutter application.
+push(): This method adds a new route to the stack of routes managed by the Navigator.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+pop(): This method removes the top route from the stack of routes managed by the Navigator.
